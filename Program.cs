@@ -26,7 +26,7 @@ class Program
         var clone = (ConcretePrototype)original.Clone();
 
         clone.Name = "Клон";
-        Console.WriteLine($"Оригинал: {original.Name}"); // Original
-        Console.WriteLine($"Клон: {clone.Name}");       // Clone
+        Console.WriteLine($"Оригинал: {original.Name}"); // Оригинал и его имя
+        Console.WriteLine($"Клон: {clone.Name}");       // Клон и его имя
     }
 }
